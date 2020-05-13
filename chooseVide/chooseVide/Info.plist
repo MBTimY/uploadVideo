@@ -60,5 +60,21 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSCameraUsageDescription</key>
+    <string>&quot;Bithumb Global&quot; Would Like to Access the Camera to scan the QR code and take photos</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>This app requires Face ID permission to authenticate using Face recognition.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>&quot;Bithumb Global&quot; Would Like to Access Your location to check secure login</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>&quot;Bithumb Global&quot; Would Like to Access Your location to check secure login </string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>&quot;Bithumb Global&quot; Would Like to Access Your Photos to scan the QR code and read photos</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>&quot;Bithumb Global&quot; Would Like to Access Your Photos to scan the QR code and read photos</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>&quot;Bithumb Global&quot; Needs access to your microphone to record a video</string>
+    
 </dict>
 </plist>

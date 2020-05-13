@@ -16,6 +16,8 @@
 		E42BFC91246BFE020085D276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E42BFC90246BFE020085D276 /* main.m */; };
 		E42BFC9B246BFE030085D276 /* chooseVideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42BFC9A246BFE030085D276 /* chooseVideTests.m */; };
 		E42BFCA6246BFE030085D276 /* chooseVideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42BFCA5246BFE030085D276 /* chooseVideUITests.m */; };
+		E42BFCB8246BFFE90085D276 /* WLCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E42BFCB4246BFFE90085D276 /* WLCircleProgressView.m */; };
+		E42BFCB9246BFFE90085D276 /* UploadVideoBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E42BFCB5246BFFE90085D276 /* UploadVideoBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		E42BFCA1246BFE030085D276 /* chooseVideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chooseVideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42BFCA5246BFE030085D276 /* chooseVideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chooseVideUITests.m; sourceTree = "<group>"; };
 		E42BFCA7246BFE030085D276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42BFCB4246BFFE90085D276 /* WLCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCircleProgressView.m; sourceTree = "<group>"; };
+		E42BFCB5246BFFE90085D276 /* UploadVideoBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadVideoBtn.m; sourceTree = "<group>"; };
+		E42BFCB6246BFFE90085D276 /* UploadVideoBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadVideoBtn.h; sourceTree = "<group>"; };
+		E42BFCB7246BFFE90085D276 /* WLCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCircleProgressView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		E42BFC7D246BFE010085D276 /* chooseVide */ = {
 			isa = PBXGroup;
 			children = (
+				E42BFCB3246BFFC90085D276 /* Source */,
 				E42BFC7E246BFE010085D276 /* AppDelegate.h */,
 				E42BFC7F246BFE010085D276 /* AppDelegate.m */,
 				E42BFC81246BFE010085D276 /* SceneDelegate.h */,
@@ -135,6 +142,17 @@
 				E42BFCA7246BFE030085D276 /* Info.plist */,
 			);
 			path = chooseVideUITests;
+			sourceTree = "<group>";
+		};
+		E42BFCB3246BFFC90085D276 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E42BFCB6246BFFE90085D276 /* UploadVideoBtn.h */,
+				E42BFCB5246BFFE90085D276 /* UploadVideoBtn.m */,
+				E42BFCB7246BFFE90085D276 /* WLCircleProgressView.h */,
+				E42BFCB4246BFFE90085D276 /* WLCircleProgressView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42BFC86246BFE010085D276 /* ViewController.m in Sources */,
+				E42BFCB9246BFFE90085D276 /* UploadVideoBtn.m in Sources */,
 				E42BFC80246BFE010085D276 /* AppDelegate.m in Sources */,
+				E42BFCB8246BFFE90085D276 /* WLCircleProgressView.m in Sources */,
 				E42BFC91246BFE020085D276 /* main.m in Sources */,
 				E42BFC83246BFE010085D276 /* SceneDelegate.m in Sources */,
 			);
